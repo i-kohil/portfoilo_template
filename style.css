@@ -12,5 +12,18 @@ body
     display: flex;
     justify-content: center;
     align-items: center;
-    min-height: auto;
+    min-height: 100vh;
+
+}
+.container
+{
+    position: relative;
+    width: 100%;
+    max-width: 1000px;
+    min-height: 100px;
+    background: #fff;
+}
+.container .leftside
+{
+    position: relative;
 }
