@@ -26,4 +26,6 @@ body
 .container .leftside
 {
     position: relative;
+    background: #003147;
+    padding: 40px;
 }
