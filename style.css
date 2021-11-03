@@ -8,7 +8,7 @@
 }
 body
 {
-    background:  lightblue;
+    background:  rgb(108, 184, 209);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -22,7 +22,7 @@ body
     max-width: 1000px;
     min-height: 1000px;
 margin: 50px;
-    background: #fff;
+    background: rgb(166, 236, 231);
     display: grid;
     grid-template-columns: 1fr 2fr;
     box-shadow: 0 35px 55px rgba(0, 0,0,0.1 );
@@ -45,14 +45,72 @@ margin: 50px;
     border-bottom: 1px solid rgba(255,255,255,0.2);
 
 }
-.contact-info
+    .profiletext .image-box
+{
+    position: relative;
+width: 200px;
+height: 200px;
+border-radius: 50%;
+overflow: hidden;
+
+}
+.profiletext .image-box personalpic
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+object-fit: cover;
+
+}
+.profiletext h2
+{
+    color: #fff;
+    font-size: 1.5em;
+    margin-top: 20px;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 700;
+
+}
+.profiletext h2 span
+{
+    font-size: 0.9em;
+    font-weight: 400;
+
+}
+
+.ContactInfo
 {
     padding-top: 40px;
 
 }
+.ContactInfo.Education li
+{
+    margin-bottom: 20px;
+
+
+}
+
+.ContactInfo.Education h5
+{
+    color: darkcyan;
+    font-weight: 500;
+
+}
+.ContactInfo.Education h4
+{
+    color: #fff;
+    font-weight: 450;
+    
+}
+
+
+
 .title 
 {
-        color: #fff;
+        color: rgb(145, 181, 214);
         text-transform: uppercase;
         font-weight: 600;
         letter-spacing: 1px;
@@ -60,6 +118,30 @@ margin: 50px;
         
 
 }
+
+    .ContactInfo ul
+    {
+        position: relative;
+
+    }
+    .ContactInfo ul li
+    {
+        position: relative;
+        list-style: none;
+        margin: 10px;
+        cursor: pointer;
+
+    }
+.ContactInfo ul li span
+{
+color: rgb(147, 146, 194);
+font-weight: 250px;
+font-size: 20px;
+
+}
+
+
+
 .container .rightside
 {
     position: relative;
