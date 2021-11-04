@@ -1,4 +1,4 @@
-
+ 
 *
 {
     margin: 0;
@@ -8,7 +8,7 @@
 }
 body
 {
-    background:  rgb(108, 184, 209);
+    background:  rgb(144, 207, 228);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -21,8 +21,8 @@ body
     width: 100%;
     max-width: 1000px;
     min-height: 1000px;
-margin: 50px;
-    background: rgb(166, 236, 231);
+     margin: 50px;
+    background: rgb(234, 241, 241);
     display: grid;
     grid-template-columns: 1fr 2fr;
     box-shadow: 0 35px 55px rgba(0, 0,0,0.1 );
@@ -32,20 +32,20 @@ margin: 50px;
 .container .leftside
 {
     position: relative;
-    background: #85B4EB;
+    background: #224c7c;
     padding: 40px;
 }
-.profiletext
+.profiletextinfo
 {
     position: relative;
     display: flex;
     flex-direction: column;
     align-items: center;
     padding-bottom: 20px;
-    border-bottom: 1px solid rgba(255,255,255,0.2);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.178);
 
 }
-    .profiletext .image-box
+    .profiletextinfo .image-box
 {
     position: relative;
 width: 200px;
@@ -54,7 +54,7 @@ border-radius: 50%;
 overflow: hidden;
 
 }
-.profiletext .image-box personalpic
+.profiletextinfo .image-box personalpic
 {
     position: absolute;
     top: 0;
@@ -64,7 +64,7 @@ overflow: hidden;
 object-fit: cover;
 
 }
-.profiletext h2
+.profiletextinfo h2
 {
     color: #fff;
     font-size: 1.5em;
@@ -74,7 +74,7 @@ object-fit: cover;
     font-weight: 700;
 
 }
-.profiletext h2 span
+.profiletextinfo h2 span
 {
     font-size: 0.9em;
     font-weight: 400;
@@ -167,4 +167,41 @@ font-size: 20px;
     position: relative;
     background: #fff;
     padding: 40px;
+}
+
+.overview
+{
+    margin-bottom: 50px;
+
+}
+.overview:last-child
+{
+    margin-bottom: 0;
+
+}
+.title2
+{
+    color: rgb(26, 26, 51);
+text-transform: uppercase;
+margin-bottom: 10px;
+
+}
+
+p
+{
+    color: rgb(4, 1, 10);
+}
+.overview .box 
+{
+    display: flex;
+    flex-direction: row;
+    margin: 20px 0;
+
+}
+.overview .box .text h4
+{
+text-transform: uppercase;
+color: #2a7da2;
+font-size: 20px;
+
 }
