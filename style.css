@@ -204,27 +204,30 @@ p
 {
 	color: rgb(27, 27, 27);
 }
+.overview .h2
+{
+	
+	margin-bottom: 1.5em;
+}
 .overview .box 
 {
 	display: flex;
-	flex-direction:row ;
-	margin: 20px 0;
+	flex-direction:column ;
+	margin-right: 2.5em;
+	margin:2.5em, 0;
+	margin-bottom: 2.5em;
 
 }
 .overview .box .skill_title
 {
 	min-width: 150px;
+	margin-bottom: 1.5em;
 	
 }
 .overview .box .skill_title h5
 {
 	text-transform: uppercase;
-	color: purple;
-	font-weight: 600;
-
-}
-.overview .box .text h4
-{
-
-
+	color: rgb(165, 71, 165);
+	font-weight: 800;
+	font-size:large;
 }
