@@ -6,7 +6,7 @@
 	box-sizing: border-box;
 	font-family: 'poppins', sans-serif;
 }
-
+/*-body-*/
 body{
 	background: #b1cdf8;
 	display: flex;
@@ -16,6 +16,8 @@ min-height: 100vh;
 	font-size: 14px;
 	line-height: 20px;
 }
+/*-container-*/
+
 .container
 {
 	position: relative;
@@ -27,6 +29,8 @@ min-height: 100vh;
 	display: grid;
 	grid-template-columns: 1fr 2fr ; 
 }
+/*-left-side-*/
+
 .container .leftside
 {
 	position: relative;
