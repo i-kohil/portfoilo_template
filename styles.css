@@ -8,7 +8,7 @@
 
 /*===== Colores =====*/
 :root{
-  --first-color: #3560d4;
+  --first-color: #1d7fa7;
   --second-color: #07131a;
 }
 
@@ -243,13 +243,7 @@ img{
 .about__subtitle{
   margin-bottom: var(--mb-2);
 }
-.about__img{
-  justify-self: center;
-}
-.about__img img{
-  width: 200px;
-  border-radius: .5rem;
-}
+
 
 /* ===== SKILLS =====*/
 .skills__container{
@@ -367,7 +361,7 @@ img{
   row-gap: 2rem;
 }
 .Education__img{
-  box-shadow: 0 4px 25px rgba(14,36,49,.15);
+  box-shadow: 0 4px 25px rgba(10, 32, 44, 0.15);
   border-radius: .5rem;
   overflow: hidden;
 }
@@ -397,7 +391,7 @@ img{
   content: '';
   position: absolute;
   width: 6px;
-  background-color: rgba(17, 14, 201, 0.966);
+  background-color: rgba(20, 18, 134, 0.966);
   top: 0;
   bottom: 0;
   left: 50%;
@@ -420,7 +414,7 @@ img{
   height: 25px;
   right: -12px;
   background-color: white;
-  border: 4px solid #1d575f;
+  border: 4px solid #125058;
   top: 15px;
   border-radius: 50%;
   z-index: 1;
@@ -612,9 +606,7 @@ img{
     align-items: center;
     text-align: initial;
   }
-  .about__img img{
-    width: 300px;
-  }
+
   .Education__container{
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(2,1fr);

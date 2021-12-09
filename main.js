@@ -15,11 +15,11 @@ showMenu('nav-toggle','nav-menu')
 const navLink = document.querySelectorAll('.nav__link');   
 
 function linkAction(){
-  /*Active link*/
+  /*Activate link*/
   navLink.forEach(n => n.classList.remove('active'));
   this.classList.add('active');
   
-  /*Remove menu mobile*/
+  /*Remove mobile menu */
   const navMenu = document.getElementById('nav-menu')
   navMenu.classList.remove('show')
 }
@@ -40,7 +40,7 @@ sr.reveal('.home__img',{delay: 400});
 sr.reveal('.home__social-icon',{ interval: 200}); 
 
 /*SCROLL ABOUT*/
-sr.reveal('.about__img',{}); 
+
 sr.reveal('.about__subtitle',{delay: 400}); 
 sr.reveal('.about__text',{delay: 400}); 
 
