@@ -235,12 +235,12 @@ img{
   box-shadow: 0 10px 36px rgba(0,0,0,.15);
 }
 
-/* ===== ABOUT =====*/
-.about__container{
+/* ===== Experience =====*/
+.Experience__container{
   row-gap: 2rem;
   text-align: center;
 }
-.about__subtitle{
+.Experience__subtitle{
   margin-bottom: var(--mb-2);
 }
 
@@ -286,16 +286,16 @@ img{
   z-index: var(--z-back);
 }
 .skills__html{
-  width: 95%;
+  width: 80%;
 }
 .skills__css{
-  width: 85%;
+  width: 79%;
 }
 .skills__js{
-  width: 65%;
+  width: 75%;
 }
 .skills__ux{
-  width: 85%;
+  width: 78%;
 }
 .skills__img{
   border-radius: .5rem;
@@ -344,13 +344,13 @@ img{
   width: 95%;
 }
 .lang-Eng{
-  width: 85%;
+  width:95%;
 }
 .lang-Fr{
-  width: 65%;
+  width: 25%;
 }
 .lang-Bos{
-  width: 85%;
+  width: 45%;
 }
 .lang__img{
   border-radius: .5rem;
@@ -601,7 +601,7 @@ img{
     bottom: 15%;
   }
 
-  .about__container, .skills__container{
+  .Experience__container, .skills__container{
     grid-template-columns: repeat(2,1fr);
     align-items: center;
     text-align: initial;

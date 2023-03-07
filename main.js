@@ -39,10 +39,10 @@ sr.reveal('.button',{delay: 200});
 sr.reveal('.home__img',{delay: 400}); 
 sr.reveal('.home__social-icon',{ interval: 200}); 
 
-/*SCROLL ABOUT*/
+/*SCROLL Experience*/
 
-sr.reveal('.about__subtitle',{delay: 400}); 
-sr.reveal('.about__text',{delay: 400}); 
+sr.reveal('.Experience__subtitle',{delay: 400}); 
+sr.reveal('.Experience__text',{delay: 400}); 
 
 /*SCROLL SKILLS*/
 sr.reveal('.skills__subtitle',{}); 
